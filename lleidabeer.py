@@ -1,6 +1,8 @@
 import click
 
 
+import brewery
+
 @click.command()
 @click.option("--debug",default=1,help="Debug level")
 @click.argument("inputfile", type=click.File('rb') )
